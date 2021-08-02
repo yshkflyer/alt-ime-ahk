@@ -9,7 +9,8 @@
 #Include IME.ahk
 
 ; Razer Synapseなど、キーカスタマイズ系のツールを併用しているときのエラー対策
-#MaxHotkeysPerInterval 350
+#HotkeyInterval 1000
+#MaxHotkeysPerInterval 500
 
 ; 主要なキーを HotKey に設定し、何もせずパススルーする
 *~a::
